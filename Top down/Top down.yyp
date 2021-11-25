@@ -5,6 +5,8 @@
     {"id":{"name":"spr_player_1","path":"sprites/spr_player_1/spr_player_1.yy",},"order":0,},
     {"id":{"name":"o_event","path":"objects/o_event/o_event.yy",},"order":6,},
     {"id":{"name":"s_arrow_explode","path":"sprites/s_arrow_explode/s_arrow_explode.yy",},"order":5,},
+    {"id":{"name":"o_knife","path":"objects/o_knife/o_knife.yy",},"order":7,},
+    {"id":{"name":"spr_knife","path":"sprites/spr_knife/spr_knife.yy",},"order":5,},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},"order":0,},
     {"id":{"name":"player_process","path":"scripts/player_process/player_process.yy",},"order":0,},
     {"id":{"name":"s_bow","path":"sprites/s_bow/s_bow.yy",},"order":1,},
@@ -61,7 +63,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Top down",
