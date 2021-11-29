@@ -1,4 +1,5 @@
 draw_sprite_ext(sprite_index, image_index, x, y, facing, 1, 0, c_white, 1);
+
 if(global.haveBook == 2) && (timer != 0)
 	draw_text_transformed(x-7, y-22, timer, 0.5, 0.5, 0);
 	

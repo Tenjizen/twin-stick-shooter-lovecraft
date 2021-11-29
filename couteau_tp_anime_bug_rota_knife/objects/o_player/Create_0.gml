@@ -1,4 +1,15 @@
 ///@description Init Variables
+//gamepads variables
+nb_pad = 0;
+aim_x = 0;
+aim_y = 0;
+
+//multiplayer variables
+kill = 0;
+death = 0;
+team = 0;
+name = "";
+
 walk_spd = 1.5;
 facing = 1; //face right
 face = 1; //pour les animes en fonction de l'angle de la souris
@@ -14,8 +25,8 @@ can_fire = true;
 my_knife = instance_create_layer(x, y, "Instances", o_knife); //crée une layer exprès
 knifeRota = 0;
 
-cursor_sprite = s_cursor;
-window_set_cursor(cr_none);
+//cursor_sprite = s_cursor;
+//window_set_cursor(cr_none);
 
 timer = 120;//timer à 120 sec soit 2min
 

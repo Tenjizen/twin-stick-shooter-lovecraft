@@ -8,28 +8,11 @@ function reset_variables()
 	vmove	= 0;//-1 je monte, 1 je descends
 }
 
-function get_input()
-{
-	if(keyboard_check(ord("Q")))
-		left	= 1;
-	if(keyboard_check(ord("D")))
-		right	= 1;
-	if(keyboard_check(ord("Z")))
-		up		= 1;
-	if(keyboard_check(ord("S")))
-		down	= 1;	
-}
 
-function get_input_2()
+function get_gp_input(nb_pad)
 {
-	if(keyboard_check(vk_left))
-		left	= 1;
-	if(keyboard_check(vk_right))
-		right	= 1;
-	if(keyboard_check(vk_up))
-		up		= 1;
-	if(keyboard_check(vk_down))
-		down	= 1;	
+	hmove = gamepad_axis_value(nb_pad, gp_axislh);
+	vmove = gamepad_axis_value(nb_pad, gp_axislv);
 }
 
 function calc_movement()
@@ -77,6 +60,47 @@ function calc_movement()
 	knifeRota = my_knife.image_angle;
 }
 
+function calc_gp_movement()
+{	
+	var _facing = (aim_dir < 90 or aim_dir > 270);
+	if(_facing == 0)
+		_facing = -1;
+	facing = _facing;
+	
+	if (aim_dir < 45 and aim_dir > 0||aim_dir < 360 and aim_dir > 315)//viseur a droite du player
+	{
+		face = 1;
+	}
+	if (aim_dir < 315 and aim_dir > 235)// viseur en bas du player
+	{
+		face = 2;
+	}
+	if (aim_dir < 235 and aim_dir > 145)//viseur a gauche du player
+	{
+		face = 3;
+	}
+	if (aim_dir > 45 and aim_dir < 145)// viseur en haut du player
+	{	
+		face = 4;
+	}
+	
+	if(hmove != 0 or vmove != 0)
+	{
+		var _dir = point_direction(0, 0, hmove, vmove);
+		hmove = lengthdir_x(walk_spd, _dir);
+		vmove = lengthdir_y(walk_spd, _dir);
+		
+		x += hmove;
+		y += vmove;
+	}
+	
+	aim_x = x+gamepad_axis_value(nb_pad, gp_axisrh);
+	aim_y = y+gamepad_axis_value(nb_pad, gp_axisrv);
+	aim_dir = point_direction(x, y, aim_x, aim_y);
+	
+	my_knife.image_angle = aim_dir;
+	knifeRota = my_knife.image_angle;
+
 function collision()
 {
 	var _tx = x;
@@ -123,7 +147,28 @@ function check_fire()
 	}
 }
 
-
+function check_gp_fire(nb_pad)
+{
+	if(gamepad_button_check(nb_pad, gp_shoulderr))
+	{
+		if(can_fire)
+		{
+			can_fire = false; //pr être sûr
+			alarm[0]= fire_rate; // est à 30 frames/sec
+			//var _dir = point_direction(x, y, mouse_x, mouse_y); // direction de la flèche
+			//var _inst = instance_create_layer(x, y, "Arrow", o_arrow); // je crée la flèche
+			bow_dist = 2; // arc se rapproche du player (initialement à 8)
+			//with(_inst)
+			//{
+			//	speed = other.arrow_speed;
+			//	direction = _dir;
+			//	image_angle = _dir; 
+			//	owner_id = other; // chaque flèche va contenir l'ID du joueur (par ex, c'est le J1 qui la tiré et pas le J2);
+			//}
+			}
+		}
+	}
+}
 
 
 function can_take_book() //savoir si le book peut être pris ou non (personne ne l'a dans les mains)

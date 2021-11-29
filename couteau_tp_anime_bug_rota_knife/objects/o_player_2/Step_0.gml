@@ -1,10 +1,11 @@
+/// @description 
 reset_variables();
 
-get_input_2();
+get_gp_input(nb_pad);
 
-calc_movement();
+calc_gp_movement(nb_pad);
 
-check_fire();
+check_gp_fire(nb_pad);
 
 anim();
 
@@ -12,12 +13,13 @@ can_take_book();
 
 have_book(2);//ID du joueur étant 1
 
-if((place_meeting(x, y, o_player)) && (global.haveBook != 0))//si P1 entre en collision avec P2 et que qlq à déjà le livre
+if((place_meeting(x, y, o_player)) && (global.haveBook != 0)) //si P1 entre en collision avec P2 et que qlq à déjà le livre
 {
 	global.canTake = true;
 	global.haveBook = 0;//le livre tombe
 	o_book.x = x+15;
 	o_book.y = y+15;	
+	
 }
 
 if((place_meeting(x, y, o_player)) && (global.hadBook == 2))//si P2 vient nous prendre le livre
@@ -26,6 +28,7 @@ if((place_meeting(x, y, o_player)) && (global.hadBook == 2))//si P2 vient nous p
 	alarm_set(2, 120);//pdt 2 sec
 	global.hadBook = 0; //réinitialisation du hadBook après le lancement de l'alarme
 }
+
 
 if (canTP && global.haveBook == 2)
 	teleportation();

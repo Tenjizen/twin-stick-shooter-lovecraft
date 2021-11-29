@@ -1,16 +1,15 @@
+/// @description 
 reset_variables();
 
-get_input();
+get_gp_input(nb_pad);
 
-calc_movement();
+calc_gp_movement(nb_pad);
 
-check_fire();
+check_gp_fire(nb_pad);
 
 anim();
 
 can_take_book();
-
-
 
 have_book(1);//ID du joueur étant 1
 
