@@ -3,6 +3,8 @@
 nb_pad = 0;
 aim_x = 0;
 aim_y = 0;
+old_aim_x = 0;
+old_aim_y = 0;
 
 //multiplayer variables
 kill = 0;
@@ -31,3 +33,7 @@ knifeRota = 0;
 timer = 120;//timer à 120 sec soit 2min
 
 canTP = true;
+can_create = true;
+
+invisible = false;
+alpha_coloration = 1;

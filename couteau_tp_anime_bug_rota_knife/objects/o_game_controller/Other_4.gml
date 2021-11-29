@@ -26,6 +26,7 @@ if(room != rm_main)
 					switch(i)
 					{
 						case 1 : name = "Player 2";
+						//o_knife.nb_pad = 1;
 						break;
 					}
 				}

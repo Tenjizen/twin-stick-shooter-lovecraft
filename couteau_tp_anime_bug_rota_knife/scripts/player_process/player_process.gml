@@ -93,10 +93,14 @@ function calc_gp_movement()
 		x += hmove;
 		y += vmove;
 	}
-	
-	aim_x = x+gamepad_axis_value(nb_pad, gp_axisrh);
-	aim_y = y+gamepad_axis_value(nb_pad, gp_axisrv);
-	aim_dir = point_direction(x, y, aim_x, aim_y);
+	if(aim_x >= 0.01 || aim_x <= -0.01)
+	    old_aim_x = aim_x;
+	if(aim_y >= 0.01 ||	 aim_y <= -0.01)
+	    old_aim_y = aim_y;
+	aim_x = gamepad_axis_value(nb_pad, gp_axisrh);
+	aim_y = gamepad_axis_value(nb_pad, gp_axisrv);
+	//aim_dir = point_direction(x, y, aim_x, aim_y);
+	aim_dir = point_direction(x, y, old_aim_x+x, old_aim_y+y); 
 	
 	my_knife.image_angle = aim_dir;
 	knifeRota = my_knife.image_angle;
@@ -124,6 +128,32 @@ function collision()
 			y += sign(_ty-y);
 	}	
 }	
+
+//function collisionWalltest()
+//{
+//	var _tx = x;
+//	var _ty = y;
+	
+//	x= xprevious
+//	y = yprevious
+	
+//	//get dist we want to move
+//	var _distx = abs(_tx - x);
+//	var _disty = abs(_ty -y);
+	
+//	repeat(_distx)
+//	{
+//		if(!place_meeting(x+sign(_tx-x),y,o_walltest) )
+//			x+=sign(_tx-x);
+
+//	}
+//	repeat(_disty)
+//	{
+//		if(!place_meeting(x,y+sign(_ty-y),o_walltest))
+//			y+=sign(_ty-y);
+
+//	}
+//}
 
 function check_fire()
 {
@@ -155,7 +185,7 @@ function check_gp_fire(nb_pad)
 		{
 			can_fire = false; //pr être sûr
 			alarm[0]= fire_rate; // est à 30 frames/sec
-			//var _dir = point_direction(x, y, mouse_x, mouse_y); // direction de la flèche
+			var _dir = point_direction(x, y, old_aim_x + x, old_aim_y+ y); // direction de la flèche
 			//var _inst = instance_create_layer(x, y, "Arrow", o_arrow); // je crée la flèche
 			bow_dist = 2; // arc se rapproche du player (initialement à 8)
 			//with(_inst)

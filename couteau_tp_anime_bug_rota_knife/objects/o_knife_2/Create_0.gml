@@ -6,4 +6,4 @@ aim_x = 0;
 aim_y = 0;
 old_aim_x = 0;
 old_aim_y = 0;
-nb_pad = 0;
+nb_pad = 1;
