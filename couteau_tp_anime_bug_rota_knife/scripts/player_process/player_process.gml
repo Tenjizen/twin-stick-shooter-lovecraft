@@ -95,15 +95,17 @@ function calc_gp_movement()
 	}
 	aim_x = gamepad_axis_value(nb_pad, gp_axisrh);
 	aim_y = gamepad_axis_value(nb_pad, gp_axisrv);
+	
 	if(aim_x >= 0.01 || aim_x <= -0.01)
 	    old_aim_x = aim_x;
 	if(aim_y >= 0.01 ||	 aim_y <= -0.01)
 	    old_aim_y = aim_y;
 
 	//aim_dir = point_direction(x, y, aim_x, aim_y);
-	aim_dir = point_direction(x, y, old_aim_x+x, old_aim_y+y); 
+	aim_dir = point_direction(x, y, old_aim_x+x, old_aim_y+y);
+	
 	if (aim_dir < 90 or aim_dir > 270)
-		my_knife.image_yscale =1;
+		my_knife.image_yscale = 1;
 	else
 		my_knife.image_yscale = -1;
 		
@@ -191,15 +193,14 @@ function check_gp_fire(nb_pad)
 			can_fire = false; //pr être sûr
 			alarm[0]= fire_rate; // est à 30 frames/sec
 			var _dir = point_direction(x, y, old_aim_x + x, old_aim_y+ y); // direction de la flèche
-			//var _inst = instance_create_layer(x, y, "Arrow", o_arrow); // je crée la flèche
+			var _inst = instance_create_layer(x, y, "Arrow", o_knife); // je crée la flèche
 			bow_dist = 2; // arc se rapproche du player (initialement à 8)
-			//with(_inst)
-			//{
-			//	speed = other.arrow_speed;
-			//	direction = _dir;
-			//	image_angle = _dir; 
-			//	owner_id = other; // chaque flèche va contenir l'ID du joueur (par ex, c'est le J1 qui la tiré et pas le J2);
-			//}
+			with(_inst)
+			{
+				speed = other.arrow_speed;
+				direction = _dir;
+				image_angle = _dir; 
+				owner_id = other; // chaque flèche va contenir l'ID du joueur (par ex, c'est le J1 qui la tiré et pas le J2);
 			}
 		}
 	}
@@ -236,33 +237,20 @@ function anim()
 	if(hmove != 0 or vmove != 0)
 	{
 		if(face == 1|| face == 3)
-		{
 			sprite_index = s_player_walk1;
-		}
 		if(face == 2)
-		{
 			sprite_index = s_player_walk2;
-		}
 		if(face == 4)
-		{
 			sprite_index = s_player_walk4;
-		}
 	}
 	else
 	{
 		if (face == 1 || face == 3)
-		{
 			sprite_index = s_player_idle1;
-		}
 		if(face == 2)
-		{
 			sprite_index = s_player_idle2;
-		}
 		if(face == 4)
-		{
-			sprite_index = s_player_idle4;
-		}
-		
+			sprite_index = s_player_idle4;		
 	}
 }
 
@@ -289,7 +277,6 @@ function teleportation()
 }
 function competencePlayer()
 {
-
 	if (gamepad_button_check(nb_pad, gp_shoulderl)&& use_power)
 		{
 			randomize();
@@ -327,4 +314,5 @@ function competencePlayer()
 				alarm[4] = 60;
 			}
 		}
+	}
 }

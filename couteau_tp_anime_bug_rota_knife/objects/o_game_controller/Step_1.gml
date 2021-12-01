@@ -5,7 +5,7 @@ if(init == false)
 	//init variables
 	nb_player = 0;
 	lst_players = ds_list_create();
-	gamepadDeadzone = 0.1;
+	gamepadDeadzone = 0.3;
 	gamepadThreshold = 0.5;
 	init = true;
 

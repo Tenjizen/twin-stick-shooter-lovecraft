@@ -21,7 +21,7 @@ aim_dir = 0; //où pointe l'arc ?
 bow_dist = 8; //distance de l'arc par apport au joueur
 fire_rate = 30; //on peut tirer 2x par sec (toutes les 30 frames donc une demie sec)
 can_fire = true;
-//arrow_speed = 8;
+arrow_speed = 5;
 
 //my_bow = instance_create_layer(x, y, "Instances", o_bow); //crée une layer exprès
 my_knife = instance_create_layer(x, y, "Instances", o_knife); //crée une layer exprès
