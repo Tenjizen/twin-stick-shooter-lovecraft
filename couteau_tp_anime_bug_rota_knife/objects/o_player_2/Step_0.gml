@@ -56,3 +56,7 @@ if (canTP && global.haveBook == 2)
 ////					instance_create_layer(x-8,y-8,"Colisons",o_creatWall);
 //			}
 //}
+if(global.haveBook == 2)
+{
+	competencePlayer();
+}

@@ -93,17 +93,22 @@ function calc_gp_movement()
 		x += hmove;
 		y += vmove;
 	}
+	aim_x = gamepad_axis_value(nb_pad, gp_axisrh);
+	aim_y = gamepad_axis_value(nb_pad, gp_axisrv);
 	if(aim_x >= 0.01 || aim_x <= -0.01)
 	    old_aim_x = aim_x;
 	if(aim_y >= 0.01 ||	 aim_y <= -0.01)
 	    old_aim_y = aim_y;
-	aim_x = gamepad_axis_value(nb_pad, gp_axisrh);
-	aim_y = gamepad_axis_value(nb_pad, gp_axisrv);
+
 	//aim_dir = point_direction(x, y, aim_x, aim_y);
 	aim_dir = point_direction(x, y, old_aim_x+x, old_aim_y+y); 
-	
+	if (aim_dir < 90 or aim_dir > 270)
+		my_knife.image_yscale =1;
+	else
+		my_knife.image_yscale = -1;
+		
 	my_knife.image_angle = aim_dir;
-	knifeRota = my_knife.image_angle;
+	
 
 function collision()
 {
@@ -281,4 +286,45 @@ function teleportation()
 		o_book.y = y;
 		alarm[3] = 60;
 	}
+}
+function competencePlayer()
+{
+
+	if (gamepad_button_check(nb_pad, gp_shoulderl)&& use_power)
+		{
+			randomize();
+			global.variable = floor(random_range(0, 4));//4 non prit
+			use_power = false;
+			//show_debug_message(variable);
+			if (global.variable == 0)
+			{
+			//can_create = false
+				if (face == 1)
+					instance_create_layer(x+8,y-8,"Instances",o_creatWall);
+				if (face == 3)
+					instance_create_layer(x-24,y-8,"Instances",o_creatWall);
+				if (face == 2)
+					instance_create_layer(x-8,y+10,"Instances",o_creatWall);
+				if (face == 4)
+					instance_create_layer(x-8,y-28,"Instances",o_creatWall);
+				alarm[4] = 60;
+					//instance_create_layer(x-8,y-8,"Instances",o_creatWall);
+			}
+			if (global.variable == 1)
+			{
+				walk_spd = 5;
+				alarm[4] = 60;
+			}
+			if (global.variable == 2)
+			{
+				alpha_coloration = 0.2;
+				alarm[4] = 60;
+			}
+			if (global.variable == 3)
+			{
+				//show_debug_message("je s'appel groot");
+				instance_create_layer(x-8,y-8,"Instances",o_slow);
+				alarm[4] = 60;
+			}
+		}
 }

@@ -40,43 +40,47 @@ if (canTP && global.haveBook == 1)
 	teleportation();
 	
 
+//if(global.haveBook == 1)
+//{
+//		if (gamepad_button_check(0, gp_shoulderl)&& use_power)
+//			{
+//				randomize();
+//				variable = floor(random_range(0, 4));//4 non prit
+//				use_power = false;
+//				//show_debug_message(variable);
+//				if (variable == 0)
+//				{
+//				//can_create = false
+//				if (face == 1)
+//					instance_create_layer(x+8,y-8,"Instances",o_creatWall);
+//				if (face == 3)
+//					instance_create_layer(x-24,y-8,"Instances",o_creatWall);
+//				if (face == 2)
+//					instance_create_layer(x-8,y+10,"Instances",o_creatWall);
+//				if (face == 4)
+//					instance_create_layer(x-8,y-28,"Instances",o_creatWall);
+//				alarm[4] = 60;
+////					instance_create_layer(x-8,y-8,"Instances",o_creatWall);
+//				}
+//				if (variable == 1)
+//				{
+//					walk_spd = 5;
+//					alarm[4] = 60;
+//				}
+//				if (variable == 2)
+//				{
+//					alpha_coloration = 0.2;
+//					alarm[4] = 60;
+//				}
+//				if (variable == 3)
+//				{
+//					//show_debug_message("je s'appel groot");
+//					instance_create_layer(x-8,y-8,"Instances",o_slow);
+//					alarm[4] = 60;
+//				}
+//			}
+//}
 if(global.haveBook == 1)
 {
-		if (gamepad_button_check(0, gp_shoulderl)&& use_power)
-			{
-				randomize();
-				variable = floor(random_range(0, 4));//4 non prit
-				use_power = false;
-				//show_debug_message(variable);
-				if (variable == 0)
-				{
-				//can_create = false
-				if (face == 1)
-					instance_create_layer(x+8,y-8,"Instances",o_creatWall);
-				if (face == 3)
-					instance_create_layer(x-24,y-8,"Instances",o_creatWall);
-				if (face == 2)
-					instance_create_layer(x-8,y+10,"Instances",o_creatWall);
-				if (face == 4)
-					instance_create_layer(x-8,y-28,"Instances",o_creatWall);
-				alarm[4] = 60;
-//					instance_create_layer(x-8,y-8,"Instances",o_creatWall);
-				}
-				if (variable == 1)
-				{
-					walk_spd = 5;
-					alarm[4] = 60;
-				}
-				if (variable == 2)
-				{
-					alpha_coloration = 0.2;
-					alarm[4] = 60;
-				}
-				if (variable == 3)
-				{
-					//show_debug_message("je s'appel groot");
-					instance_create_layer(x-8,y-8,"Instances",o_slow);
-					alarm[4] = 60;
-				}
-			}
+	competencePlayer();
 }
