@@ -33,7 +33,9 @@ knifeRota = 0;
 timer = 120;//timer à 120 sec soit 2min
 
 canTP = true;
-can_create = true;
+//can_create = true;
 
 invisible = false;
 alpha_coloration = 1;
+
+use_power = true;

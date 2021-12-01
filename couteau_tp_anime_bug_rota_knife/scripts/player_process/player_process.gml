@@ -129,31 +129,31 @@ function collision()
 	}	
 }	
 
-//function collisionWalltest()
-//{
-//	var _tx = x;
-//	var _ty = y;
+function collisionWalltest()
+{
+	var _tx = x;
+	var _ty = y;
 	
-//	x= xprevious
-//	y = yprevious
+	x= xprevious
+	y = yprevious
 	
-//	//get dist we want to move
-//	var _distx = abs(_tx - x);
-//	var _disty = abs(_ty -y);
+	//get dist we want to move
+	var _distx = abs(_tx - x);
+	var _disty = abs(_ty -y);
 	
-//	repeat(_distx)
-//	{
-//		if(!place_meeting(x+sign(_tx-x),y,o_walltest) )
-//			x+=sign(_tx-x);
+	repeat(_distx)
+	{
+		if(!place_meeting(x+sign(_tx-x),y,o_creatWall) )
+			x+=sign(_tx-x);
 
-//	}
-//	repeat(_disty)
-//	{
-//		if(!place_meeting(x,y+sign(_ty-y),o_walltest))
-//			y+=sign(_ty-y);
+	}
+	repeat(_disty)
+	{
+		if(!place_meeting(x,y+sign(_ty-y),o_creatWall))
+			y+=sign(_ty-y);
 
-//	}
-//}
+	}
+}
 
 function check_fire()
 {

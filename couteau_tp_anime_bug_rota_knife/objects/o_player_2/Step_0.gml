@@ -12,29 +12,29 @@ anim();
 can_take_book();
 
 have_book(2);//ID du joueur étant 1
-if(!o_player.invisible && !invisible)
-{
-	if((place_meeting(x, y, o_player)) && (global.haveBook != 0)) //si P1 entre en collision avec P2 et que qlq à déjà le livre
-	{
+//if(!o_player.invisible && !invisible)
+//{
+//	if((place_meeting(x, y, o_player)) && (global.haveBook != 0)) //si P1 entre en collision avec P2 et que qlq à déjà le livre
+//	{
 
-			global.canTake = true;
-			global.haveBook = 0;//le livre tombe
-			o_book.x = x+15;
-			o_book.y = y+15;	
+//			global.canTake = true;
+//			global.haveBook = 0;//le livre tombe
+//			o_book.x = x+15;
+//			o_book.y = y+15;	
 		
-	}
+//	}
 
-	if((place_meeting(x, y, o_player)) && (global.hadBook == 2))//si P2 vient nous prendre le livre
-	{
+//	if((place_meeting(x, y, o_player)) && (global.hadBook == 2))//si P2 vient nous prendre le livre
+//	{
 		
-			invisible = true;
-			alpha_coloration =0.5;
-			walk_spd = 0;//le joueur est paralysé
-			alarm_set(2, 120);//pdt 2 sec
-			global.hadBook = 0; //réinitialisation du hadBook après le lancement de l'alarme
+//			invisible = true;
+//			alpha_coloration =0.5;
+//			walk_spd = 0;//le joueur est paralysé
+//			alarm_set(2, 120);//pdt 2 sec
+//			global.hadBook = 0; //réinitialisation du hadBook après le lancement de l'alarme
 		
-	}
-}
+//	}
+//}
 if (canTP && global.haveBook == 2)
 	teleportation();
 	
@@ -45,14 +45,14 @@ if (canTP && global.haveBook == 2)
 //			{
 //				can_create = false
 //				if (face == 1)
-//					instance_create_layer(x+8,y-8,"Colisons",o_walltest);
+//					instance_create_layer(x+8,y-8,"Colisons",o_creatWall);
 //				if (face == 3)
-//					instance_create_layer(x-24,y-8,"Colisons",o_walltest);
+//					instance_create_layer(x-24,y-8,"Colisons",o_creatWall);
 //				if (face == 2)
-//					instance_create_layer(x-8,y+10,"Colisons",o_walltest);
+//					instance_create_layer(x-8,y+10,"Colisons",o_creatWall);
 //				if (face == 4)
-//					instance_create_layer(x-8,y-28,"Colisons",o_walltest);
+//					instance_create_layer(x-8,y-28,"Colisons",o_creatWall);
 //				alarm[1] = 160;
-////					instance_create_layer(x-8,y-8,"Colisons",o_walltest);
+////					instance_create_layer(x-8,y-8,"Colisons",o_creatWall);
 //			}
 //}
