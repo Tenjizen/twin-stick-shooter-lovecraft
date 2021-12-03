@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 13,
-  "bbox_bottom": 79,
+  "bbox_top": 1,
+  "bbox_bottom": 67,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 48,
-  "height": 80,
+  "height": 69,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,21 +24,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ac8cd86-e5fa-4dc5-8d4b-fed7ada90de7","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ac8cd86-e5fa-4dc5-8d4b-fed7ada90de7","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"4f191e1a-2dcf-41dc-9803-a4054ac3e98f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"3ac8cd86-e5fa-4dc5-8d4b-fed7ada90de7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"44046722-d65c-40e3-8e31-c8f40733ec5c","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"44046722-d65c-40e3-8e31-c8f40733ec5c","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"4f191e1a-2dcf-41dc-9803-a4054ac3e98f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"44046722-d65c-40e3-8e31-c8f40733ec5c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"469feaea-3c0a-474b-a1cf-132a868c2394","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"469feaea-3c0a-474b-a1cf-132a868c2394","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"4f191e1a-2dcf-41dc-9803-a4054ac3e98f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"469feaea-3c0a-474b-a1cf-132a868c2394","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"082456f6-8c64-470d-a99e-9f7b6fa998fa","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"082456f6-8c64-470d-a99e-9f7b6fa998fa","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"4f191e1a-2dcf-41dc-9803-a4054ac3e98f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"082456f6-8c64-470d-a99e-9f7b6fa998fa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"772e13b9-21c8-4e25-a360-fa898a851c59","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"772e13b9-21c8-4e25-a360-fa898a851c59","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"4f191e1a-2dcf-41dc-9803-a4054ac3e98f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"772e13b9-21c8-4e25-a360-fa898a851c59","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1aae3883-90f5-484a-adc9-1b86bee0a851","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1aae3883-90f5-484a-adc9-1b86bee0a851","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"85f3d12c-4ad0-484a-b376-1b10215905b4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"1aae3883-90f5-484a-adc9-1b86bee0a851","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4e61edeb-a033-4845-b612-380eadc5015f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4e61edeb-a033-4845-b612-380eadc5015f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"85f3d12c-4ad0-484a-b376-1b10215905b4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"4e61edeb-a033-4845-b612-380eadc5015f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"21d21acd-f92b-4b2b-b830-7bdd0f6382c4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"21d21acd-f92b-4b2b-b830-7bdd0f6382c4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"85f3d12c-4ad0-484a-b376-1b10215905b4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"21d21acd-f92b-4b2b-b830-7bdd0f6382c4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ea198da8-cd9e-4e2c-82c1-0618c1611aad","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ea198da8-cd9e-4e2c-82c1-0618c1611aad","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"85f3d12c-4ad0-484a-b376-1b10215905b4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"ea198da8-cd9e-4e2c-82c1-0618c1611aad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1ca8d2ce-8764-4333-bef9-616a95f3ab24","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1ca8d2ce-8764-4333-bef9-616a95f3ab24","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"LayerId":{"name":"85f3d12c-4ad0-484a-b376-1b10215905b4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","name":"1ca8d2ce-8764-4333-bef9-616a95f3ab24","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_StatueCthulhuIdleOpen","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},
@@ -53,11 +53,11 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"15189f8b-7ad2-4828-8430-ac2f453afc24","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ac8cd86-e5fa-4dc5-8d4b-fed7ada90de7","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"737eee1e-5452-4bba-928e-0af991d35d58","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"44046722-d65c-40e3-8e31-c8f40733ec5c","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d32f9aa5-452e-4c5a-93e0-7893f7fc9ec9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"469feaea-3c0a-474b-a1cf-132a868c2394","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"724a2359-809c-4cbe-8b2e-0d5c9c5ff19f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"082456f6-8c64-470d-a99e-9f7b6fa998fa","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"4c338c57-8e40-4564-ad3d-3475743db306","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"772e13b9-21c8-4e25-a360-fa898a851c59","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a3909d73-81ea-40af-b5be-e40a2c3a0100","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1aae3883-90f5-484a-adc9-1b86bee0a851","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a30dac8c-553d-400e-ac20-c46c5bc62368","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4e61edeb-a033-4845-b612-380eadc5015f","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4b7db1d3-5c5d-45d6-bfb4-731b5c1beb9f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21d21acd-f92b-4b2b-b830-7bdd0f6382c4","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"72237e59-154b-43ec-95ee-ab1a3050fd37","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea198da8-cd9e-4e2c-82c1-0618c1611aad","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4888538b-7b13-4399-b3ff-e0b27b17a31c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ca8d2ce-8764-4333-bef9-616a95f3ab24","path":"sprites/s_StatueCthulhuIdleOpen/s_StatueCthulhuIdleOpen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -81,7 +81,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4f191e1a-2dcf-41dc-9803-a4054ac3e98f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85f3d12c-4ad0-484a-b376-1b10215905b4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

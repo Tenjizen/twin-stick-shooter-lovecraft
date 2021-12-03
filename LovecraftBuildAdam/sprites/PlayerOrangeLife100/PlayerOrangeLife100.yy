@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 45,
+  "bbox_left": 1,
+  "bbox_right": 46,
   "bbox_top": 0,
   "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 46,
+  "width": 48,
   "height": 48,
   "textureGroupId": {
     "name": "Default",
@@ -24,24 +24,24 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"35bb7549-5516-41a4-bd91-4026c833d3e9","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"35bb7549-5516-41a4-bd91-4026c833d3e9","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"35bb7549-5516-41a4-bd91-4026c833d3e9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f3409c89-1fc2-4abb-a0f8-ad9c820019ff","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f3409c89-1fc2-4abb-a0f8-ad9c820019ff","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"f3409c89-1fc2-4abb-a0f8-ad9c820019ff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1af0f031-402c-481e-b740-1ff4ba3b4f0c","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1af0f031-402c-481e-b740-1ff4ba3b4f0c","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"1af0f031-402c-481e-b740-1ff4ba3b4f0c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"65c1245d-4567-48c6-aa01-d9c2958829d9","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"65c1245d-4567-48c6-aa01-d9c2958829d9","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"65c1245d-4567-48c6-aa01-d9c2958829d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2b3a5f39-34e5-4d33-9c24-e1cdc626a21b","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b3a5f39-34e5-4d33-9c24-e1cdc626a21b","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"2b3a5f39-34e5-4d33-9c24-e1cdc626a21b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4f184467-bcfd-483e-b0f1-75822e23120a","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4f184467-bcfd-483e-b0f1-75822e23120a","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"4f184467-bcfd-483e-b0f1-75822e23120a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8aab0445-2b34-4ed8-b8b9-c45aaf11475f","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8aab0445-2b34-4ed8-b8b9-c45aaf11475f","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"8aab0445-2b34-4ed8-b8b9-c45aaf11475f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fe334e8c-0992-4216-a01f-e5dd8a0b599d","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fe334e8c-0992-4216-a01f-e5dd8a0b599d","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"fe334e8c-0992-4216-a01f-e5dd8a0b599d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b8eef908-da7b-4319-b447-ff0ecc96e113","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b8eef908-da7b-4319-b447-ff0ecc96e113","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"b8eef908-da7b-4319-b447-ff0ecc96e113","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bfb36d30-9b76-4e7e-877c-8a4e095b0374","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bfb36d30-9b76-4e7e-877c-8a4e095b0374","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"bfb36d30-9b76-4e7e-877c-8a4e095b0374","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a55b0084-f3bd-4f6a-9f92-26e7a951f119","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a55b0084-f3bd-4f6a-9f92-26e7a951f119","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"a55b0084-f3bd-4f6a-9f92-26e7a951f119","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"27d05ab6-7c69-42be-8a5e-e8ac2a6c51e0","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"27d05ab6-7c69-42be-8a5e-e8ac2a6c51e0","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"LayerId":{"name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","name":"27d05ab6-7c69-42be-8a5e-e8ac2a6c51e0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"PlayerOrangeLife100","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},
@@ -56,12 +56,12 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"65dfc6ac-2ec4-4b09-81e5-4759b5f1f956","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"35bb7549-5516-41a4-bd91-4026c833d3e9","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"296b6d8a-5ce9-4806-8cff-0f374514f6d1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f3409c89-1fc2-4abb-a0f8-ad9c820019ff","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3a8d2ab7-546f-4a4f-8461-e67b9b42dcba","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1af0f031-402c-481e-b740-1ff4ba3b4f0c","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"cb1b3033-aca1-4e2a-aba4-55c07e1485a3","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65c1245d-4567-48c6-aa01-d9c2958829d9","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6965e6f0-5cea-4067-8764-8f483f55ed6e","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b3a5f39-34e5-4d33-9c24-e1cdc626a21b","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"05d925d0-76f2-4b7a-9f9b-a97f06715475","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f184467-bcfd-483e-b0f1-75822e23120a","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c9e755d4-14ea-4959-a191-db84948ebd66","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8aab0445-2b34-4ed8-b8b9-c45aaf11475f","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9c80ac00-7877-4acc-a706-d761fafceac2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe334e8c-0992-4216-a01f-e5dd8a0b599d","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0f9a01a9-5e28-42a7-8a5e-19868aa37cb9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8eef908-da7b-4319-b447-ff0ecc96e113","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"023d41d4-2213-4307-a59c-312371e13502","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfb36d30-9b76-4e7e-877c-8a4e095b0374","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"34ee56ed-6c8d-4bc8-ae6e-3988cd98b399","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a55b0084-f3bd-4f6a-9f92-26e7a951f119","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"594966f3-2910-420d-80d4-7fcea6fc8865","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"27d05ab6-7c69-42be-8a5e-e8ac2a6c51e0","path":"sprites/PlayerOrangeLife100/PlayerOrangeLife100.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -85,7 +85,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"404f1c0a-98f3-44a0-acfe-c947a538dd79","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

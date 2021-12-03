@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 13,
-  "bbox_bottom": 79,
+  "bbox_top": 2,
+  "bbox_bottom": 68,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 48,
-  "height": 80,
+  "height": 69,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dcf62567-0173-4fd7-83cb-447e399af401","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcf62567-0173-4fd7-83cb-447e399af401","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"LayerId":{"name":"d2a31992-7163-4e27-8205-d42beb46d4f0","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_StatueCthulhuIdleClose","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"resourceVersion":"1.0","name":"dcf62567-0173-4fd7-83cb-447e399af401","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7b93f9bd-37c9-4e47-9efb-206ef668e188","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7b93f9bd-37c9-4e47-9efb-206ef668e188","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"LayerId":{"name":"1947d06d-eabf-42c1-b4ff-0566d24df9f9","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_StatueCthulhuIdleClose","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"resourceVersion":"1.0","name":"7b93f9bd-37c9-4e47-9efb-206ef668e188","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_StatueCthulhuIdleClose","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3d53d059-3a5b-49fa-ab05-ca9b868af050","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dcf62567-0173-4fd7-83cb-447e399af401","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f428c12e-39c0-4b07-be42-fa955135ee90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b93f9bd-37c9-4e47-9efb-206ef668e188","path":"sprites/s_StatueCthulhuIdleClose/s_StatueCthulhuIdleClose.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d2a31992-7163-4e27-8205-d42beb46d4f0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1947d06d-eabf-42c1-b4ff-0566d24df9f9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
