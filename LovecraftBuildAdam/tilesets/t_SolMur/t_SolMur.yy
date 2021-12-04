@@ -100,7 +100,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SolMur",
+  "name": "t_SolMur",
   "tags": [],
   "resourceType": "GMTileSet",
 }
