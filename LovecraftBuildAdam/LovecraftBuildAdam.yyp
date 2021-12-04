@@ -27,6 +27,7 @@
     {"id":{"name":"PlayerVioletLife40","path":"sprites/PlayerVioletLife40/PlayerVioletLife40.yy",},"order":2,},
     {"id":{"name":"PlayerBlueLife40","path":"sprites/PlayerBlueLife40/PlayerBlueLife40.yy",},"order":2,},
     {"id":{"name":"s_BookGlow","path":"sprites/s_BookGlow/s_BookGlow.yy",},"order":4,},
+    {"id":{"name":"RoomUpgrade","path":"rooms/RoomUpgrade/RoomUpgrade.yy",},"order":1,},
     {"id":{"name":"s_BougieLight01","path":"sprites/s_BougieLight01/s_BougieLight01.yy",},"order":0,},
     {"id":{"name":"PlayerBlueLife60","path":"sprites/PlayerBlueLife60/PlayerBlueLife60.yy",},"order":3,},
     {"id":{"name":"s_SolMur","path":"sprites/s_SolMur/s_SolMur.yy",},"order":0,},
@@ -66,7 +67,7 @@
     {"id":{"name":"o_BougieMultiple","path":"objects/o_BougieMultiple/o_BougieMultiple.yy",},"order":3,},
     {"id":{"name":"s_BougieSimple","path":"sprites/s_BougieSimple/s_BougieSimple.yy",},"order":3,},
     {"id":{"name":"spr_Dust","path":"sprites/spr_Dust/spr_Dust.yy",},"order":3,},
-    {"id":{"name":"t_SolMur","path":"tilesets/t_SolMur/t_SolMur.yy",},"order":0,},
+    {"id":{"name":"t_SolMur01","path":"tilesets/t_SolMur01/t_SolMur01.yy",},"order":0,},
     {"id":{"name":"o_BougieLight01","path":"objects/o_BougieLight01/o_BougieLight01.yy",},"order":0,},
     {"id":{"name":"o_LibraryClose","path":"objects/o_LibraryClose/o_LibraryClose.yy",},"order":1,},
     {"id":{"name":"o_BougieDuo01","path":"objects/o_BougieDuo01/o_BougieDuo01.yy",},"order":1,},
@@ -97,7 +98,9 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [],
+  "RoomOrder": [
+    {"name":"RoomUpgrade","path":"rooms/RoomUpgrade/RoomUpgrade.yy",},
+  ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets.yy","order":2,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
