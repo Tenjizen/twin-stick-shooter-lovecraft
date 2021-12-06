@@ -79,7 +79,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fb5fd3f7-e46d-4835-b9ce-e17cfd27ecc5","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Chandelier",
     "path": "folders/Sprites/Chandelier.yy",

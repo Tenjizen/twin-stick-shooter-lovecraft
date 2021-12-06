@@ -103,7 +103,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8c13b138-f300-40ef-a001-4e4cf7ac9886","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Book",
     "path": "folders/Sprites/Book.yy",

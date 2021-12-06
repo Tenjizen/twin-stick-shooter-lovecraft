@@ -87,7 +87,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9b4c758e-be92-4117-a059-02559f1a8d88","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "PlayerRedLife",
     "path": "folders/Sprites/PlayerRedLife.yy",

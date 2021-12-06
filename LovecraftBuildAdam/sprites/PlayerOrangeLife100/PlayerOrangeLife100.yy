@@ -87,7 +87,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a7f607f2-e3d3-4a0c-b153-8f76b47d1a09","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "PlayerOrangeLife",
     "path": "folders/Sprites/PlayerOrangeLife.yy",

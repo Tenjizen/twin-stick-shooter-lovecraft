@@ -87,7 +87,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"11a9a2d1-4f43-445a-8fee-27f6cfe9d6ba","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "PlayerVioletLife",
     "path": "folders/Sprites/PlayerVioletLife.yy",

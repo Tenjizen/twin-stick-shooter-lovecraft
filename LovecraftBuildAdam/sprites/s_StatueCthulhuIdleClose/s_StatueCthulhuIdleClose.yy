@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1947d06d-eabf-42c1-b4ff-0566d24df9f9","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "StatueCthulhu",
     "path": "folders/Sprites/StatueCthulhu.yy",

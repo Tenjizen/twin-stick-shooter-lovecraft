@@ -83,7 +83,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dc9337cd-00e4-4800-9836-d9a42bae1c9e","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Player",
     "path": "folders/Player.yy",
