@@ -46,6 +46,7 @@
     {"id":{"name":"PlayerVioletLife00","path":"sprites/PlayerVioletLife00/PlayerVioletLife00.yy",},"order":5,},
     {"id":{"name":"s_Book","path":"sprites/s_Book/s_Book.yy",},"order":1,},
     {"id":{"name":"PlayerOrangeLife80","path":"sprites/PlayerOrangeLife80/PlayerOrangeLife80.yy",},"order":4,},
+    {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},"order":2,},
     {"id":{"name":"s_StatueCthulhuOpenClose","path":"sprites/s_StatueCthulhuOpenClose/s_StatueCthulhuOpenClose.yy",},"order":1,},
     {"id":{"name":"o_ChandelierTriple","path":"objects/o_ChandelierTriple/o_ChandelierTriple.yy",},"order":2,},
     {"id":{"name":"o_DagueLancer","path":"objects/o_DagueLancer/o_DagueLancer.yy",},"order":1,},
