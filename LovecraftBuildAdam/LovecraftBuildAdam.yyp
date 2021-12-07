@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_PlayerLife80","path":"sprites/s_PlayerLife80/s_PlayerLife80.yy",},"order":4,},
+    {"id":{"name":"o_Sceptretir","path":"objects/o_Sceptretir/o_Sceptretir.yy",},"order":3,},
     {"id":{"name":"s_DagueBase","path":"sprites/s_DagueBase/s_DagueBase.yy",},"order":0,},
     {"id":{"name":"obj_particle_setup","path":"objects/obj_particle_setup/obj_particle_setup.yy",},"order":2,},
     {"id":{"name":"PlayerVioletLife100","path":"sprites/PlayerVioletLife100/PlayerVioletLife100.yy",},"order":0,},
@@ -18,6 +19,7 @@
     {"id":{"name":"PlayerBlueLife00","path":"sprites/PlayerBlueLife00/PlayerBlueLife00.yy",},"order":5,},
     {"id":{"name":"s_Trou06","path":"sprites/s_Trou06/s_Trou06.yy",},"order":10,},
     {"id":{"name":"PlayerBlueLife80","path":"sprites/PlayerBlueLife80/PlayerBlueLife80.yy",},"order":4,},
+    {"id":{"name":"s_Sceptre","path":"sprites/s_Sceptre/s_Sceptre.yy",},"order":3,},
     {"id":{"name":"o_Trou03","path":"objects/o_Trou03/o_Trou03.yy",},"order":2,},
     {"id":{"name":"o_Trou01","path":"objects/o_Trou01/o_Trou01.yy",},"order":0,},
     {"id":{"name":"t_Props","path":"tilesets/t_Props/t_Props.yy",},"order":3,},
@@ -72,6 +74,7 @@
     {"id":{"name":"s_DagueBaseLancer","path":"sprites/s_DagueBaseLancer/s_DagueBaseLancer.yy",},"order":1,},
     {"id":{"name":"PlayerOrangeLife60","path":"sprites/PlayerOrangeLife60/PlayerOrangeLife60.yy",},"order":3,},
     {"id":{"name":"PlayerBlueLife100","path":"sprites/PlayerBlueLife100/PlayerBlueLife100.yy",},"order":0,},
+    {"id":{"name":"s_SceptreTir","path":"sprites/s_SceptreTir/s_SceptreTir.yy",},"order":4,},
     {"id":{"name":"o_BookGlow","path":"objects/o_BookGlow/o_BookGlow.yy",},"order":5,},
     {"id":{"name":"s_BookLand","path":"sprites/s_BookLand/s_BookLand.yy",},"order":1,},
     {"id":{"name":"PlayerOrangeLife00","path":"sprites/PlayerOrangeLife00/PlayerOrangeLife00.yy",},"order":0,},
@@ -83,6 +86,8 @@
     {"id":{"name":"o_BougieMultiple","path":"objects/o_BougieMultiple/o_BougieMultiple.yy",},"order":3,},
     {"id":{"name":"s_BougieSimple","path":"sprites/s_BougieSimple/s_BougieSimple.yy",},"order":3,},
     {"id":{"name":"spr_Dust","path":"sprites/spr_Dust/spr_Dust.yy",},"order":3,},
+    {"id":{"name":"o_SpawnWeapon","path":"objects/o_SpawnWeapon/o_SpawnWeapon.yy",},"order":4,},
+    {"id":{"name":"o_Sceptre","path":"objects/o_Sceptre/o_Sceptre.yy",},"order":2,},
     {"id":{"name":"t_SolMur01","path":"tilesets/t_SolMur01/t_SolMur01.yy",},"order":0,},
     {"id":{"name":"o_BougieLight01","path":"objects/o_BougieLight01/o_BougieLight01.yy",},"order":0,},
     {"id":{"name":"o_LibraryClose","path":"objects/o_LibraryClose/o_LibraryClose.yy",},"order":1,},
