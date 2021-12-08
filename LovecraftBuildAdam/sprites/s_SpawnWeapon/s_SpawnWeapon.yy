@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 17,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 16,
-  "height": 16,
+  "height": 18,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"006631c9-548c-442a-9afc-69b91109eb6d","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"006631c9-548c-442a-9afc-69b91109eb6d","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"LayerId":{"name":"23153c9d-4a5f-42df-be44-7fb2877ec817","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_SpawnWeapon","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"resourceVersion":"1.0","name":"006631c9-548c-442a-9afc-69b91109eb6d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6a8bb5f3-2b47-4733-922b-af85eb7d055d","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6a8bb5f3-2b47-4733-922b-af85eb7d055d","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"LayerId":{"name":"e4fe6054-9e52-4552-9c4f-eb358a5d5718","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_SpawnWeapon","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"resourceVersion":"1.0","name":"6a8bb5f3-2b47-4733-922b-af85eb7d055d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_SpawnWeapon","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"08a59405-8d08-4c4b-b950-70ada29b38b6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"006631c9-548c-442a-9afc-69b91109eb6d","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6cee0a7d-2d40-4e1e-a446-3cc6249cdc5f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a8bb5f3-2b47-4733-922b-af85eb7d055d","path":"sprites/s_SpawnWeapon/s_SpawnWeapon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23153c9d-4a5f-42df-be44-7fb2877ec817","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4fe6054-9e52-4552-9c4f-eb358a5d5718","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Weapon",
